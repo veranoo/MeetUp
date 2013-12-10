@@ -30,6 +30,10 @@
             android:name="com.vd.meetup.activities.LoginActivity"
             android:label="@string/title_activity_login" >
         </activity>
+        <activity
+            android:name="com.vd.meetup.activities.SignUpActivity"
+            android:label="@string/title_activity_sign_up" >
+        </activity>
     </application>
 
 </manifest>

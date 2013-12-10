@@ -34,11 +34,5 @@
             android:layout_height="@dimen/action_bar_default_height"
             android:background="@color/blueish"
             android:text="Login" />
-        <Button
-            android:id="@+id/sign_up_btn"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/action_bar_default_height"
-            android:background="@color/green"
-            android:text="Sign Up" />
     </LinearLayout>
 </LinearLayout>
