@@ -8,4 +8,11 @@
     <string name="title_activity_base">BaseActivity</string>
     <string name="title_activity_sign_up">SignUpActivity</string>
 
+    <string name="username">Nazwa użytkownika</string>
+    <string name="password">Hasło</string>
+    <string name="email">E-mail</string>
+    <string name="login">Zaloguj</string>
+    <string name="signup">Zarejestruj</string>
+    <string name="logout">Wyloguj</string>
+
 </resources>

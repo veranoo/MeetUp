@@ -29,7 +29,7 @@ public class LoginActivity extends Activity implements View.OnClickListener {
     }
 
     public void bindValues() {
-        mTextViewLogin = (TextView) findViewById(R.id.email_et);
+        mTextViewLogin = (TextView) findViewById(R.id.username_et);
         mTextViewPassword = (TextView) findViewById(R.id.password_et);
         mButtonLogin = (Button) findViewById(R.id.login_btn);
         mButtonSignUp = (Button) findViewById(R.id.sign_up_btn);
@@ -53,6 +53,7 @@ public class LoginActivity extends Activity implements View.OnClickListener {
             public void done(ParseUser parseUser, ParseException e) {
                 if (parseUser != null){
                     MeetUpActivity.startMeetUpActivity(LoginActivity.this);
+                    finish();
                 }
                 else {
                     Toast.makeText(getApplication(),"Login Error: " + e.getMessage(), Toast.LENGTH_SHORT).show();

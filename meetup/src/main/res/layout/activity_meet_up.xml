@@ -9,7 +9,14 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Logout"
+        android:text="@string/logout"
         android:id="@+id/log_out_btn"
         android:layout_gravity="right|top" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Użytkownik"
+        android:id="@+id/current_user_text_view"
+        android:layout_gravity="left|top" />
 </FrameLayout>

@@ -15,24 +15,30 @@
         android:orientation="vertical">
 
         <EditText
-            android:id="@+id/email_et"
+            android:id="@+id/username_su"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textEmailAddress"
-            android:hint="E-mail" />
+            android:inputType="text"
+            android:hint="@string/username" />
 
         <EditText
-            android:id="@+id/password_et"
+            android:id="@+id/password_su"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:password="true"
-            android:hint="Password" />
+            android:hint="@string/password" />
+        <EditText
+            android:id="@+id/email_su"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="@string/email" />
 
         <Button
-            android:id="@+id/login_btn"
+            android:id="@+id/sing_up_btn_su"
             android:layout_width="match_parent"
             android:layout_height="@dimen/action_bar_default_height"
-            android:background="@color/blueish"
-            android:text="Login" />
+            android:background="@color/green"
+            android:text="@string/signup" />
     </LinearLayout>
 </LinearLayout>
